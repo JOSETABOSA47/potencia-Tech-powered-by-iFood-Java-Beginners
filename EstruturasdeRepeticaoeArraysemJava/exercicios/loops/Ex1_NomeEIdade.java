@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package EstruturasdeRepeticaoeArraysemJava.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -14,10 +14,11 @@ public class Ex1_NomeEIdade {
         String nome;
         int idade;
 
-        while(true) {
+        while (true) {
             System.out.println("Nome: ");
             nome = scan.next();
-            if (nome.equals("0")) break;
+            if (nome.equals("0"))
+                break;
 
             System.out.println("Idade: ");
             idade = scan.nextInt();

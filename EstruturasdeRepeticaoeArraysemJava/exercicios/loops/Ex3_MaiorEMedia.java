@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package EstruturasdeRepeticaoeArraysemJava.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -22,13 +22,14 @@ public class Ex3_MaiorEMedia {
 
             soma = soma + numero;
 
-            if (numero > maior) maior = numero;
+            if (numero > maior)
+                maior = numero;
 
             count = count + 1;
-        } while(count < 5);
+        } while (count < 5);
 
         System.out.println("Maior: " + maior);
-        System.out.println("Média: " + (soma/5));
+        System.out.println("Média: " + (soma / 5));
 
     }
 }

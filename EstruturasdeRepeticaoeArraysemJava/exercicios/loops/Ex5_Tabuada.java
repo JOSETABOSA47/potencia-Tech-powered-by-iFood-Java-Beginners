@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package EstruturasdeRepeticaoeArraysemJava.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -22,8 +22,8 @@ public class Ex5_Tabuada {
         int tabuada = scan.nextInt();
 
         System.out.println("Tabuada de " + tabuada);
-        for(int i = 1; i <= 10; i = i + 1) {
-            System.out.println(tabuada + " X " + i + " = " + (tabuada*i));
+        for (int i = 1; i <= 10; i = i + 1) {
+            System.out.println(tabuada + " X " + i + " = " + (tabuada * i));
         }
     }
 

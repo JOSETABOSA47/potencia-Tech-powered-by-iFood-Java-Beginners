@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package EstruturasdeRepeticaoeArraysemJava.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -15,8 +15,8 @@ public class Ex6_Fatorial {
 
         int multiplicacao = 1;
 
-        System.out.print(fatorial +"! = ");
-        for(int i = fatorial ; i >= 1 ; i --) {
+        System.out.print(fatorial + "! = ");
+        for (int i = fatorial; i >= 1; i--) {
             multiplicacao = multiplicacao * i;
         }
 

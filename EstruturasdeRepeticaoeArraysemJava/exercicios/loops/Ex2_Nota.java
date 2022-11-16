@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package EstruturasdeRepeticaoeArraysemJava.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -17,7 +17,7 @@ public class Ex2_Nota {
         System.out.println("Nota: ");
         nota = scan.nextInt();
 
-        while(nota < 0 | nota > 10) {
+        while (nota < 0 | nota > 10) {
             System.out.println("Nota Inválida! Digite novamente: ");
             nota = scan.nextInt();
         }

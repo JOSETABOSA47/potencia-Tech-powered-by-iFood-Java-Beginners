@@ -1,4 +1,4 @@
-package br.com.dio.exercicios.loops;
+package EstruturasdeRepeticaoeArraysemJava.exercicios.loops;
 
 import java.util.Scanner;
 
@@ -23,11 +23,13 @@ public class Ex4_ParEImpar {
             System.out.println("Número: ");
             numero = scan.nextInt();
 
-            if (numero % 2 == 0 ) quantPares++;
-            else quantImpares++;
+            if (numero % 2 == 0)
+                quantPares++;
+            else
+                quantImpares++;
 
             count++;
-        } while(count < quantNumeros);
+        } while (count < quantNumeros);
 
         System.out.println("Quantidade Par: " + quantPares);
         System.out.println("Quantidade Ímpar: " + quantImpares);
